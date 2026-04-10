@@ -6,7 +6,7 @@
 
 int main(int argc, char* argv[])
 {
-    const unsigned int MAX_INT = _UI32_MAX;
+    const unsigned long MAX_INT = 0xffffffffUL;
     long uDecNum, uTempVal;
     std::string strOctNum;
     std::cout << "Input an unsigned integer number\r\n";
