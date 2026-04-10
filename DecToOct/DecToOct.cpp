@@ -6,12 +6,11 @@
 
 int main(int argc, char* argv[])
 {
-    const unsigned long MAX_INT = 0xffffffffUL;
     long uDecNum, uTempVal;
     std::string strOctNum;
     std::cout << "Input an unsigned integer number\r\n";
     std::cin >> uDecNum;
-    if (uDecNum < 0 or uDecNum > MAX_INT)
+    if (uDecNum < 0 or uDecNum > UINT32_MAX)
     {
         std::cout << "Inorrect number format\r\n";
         std::cin.ignore();
