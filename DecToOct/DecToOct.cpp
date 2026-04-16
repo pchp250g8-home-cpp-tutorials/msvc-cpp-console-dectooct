@@ -12,7 +12,7 @@ int main(int argc, char* argv[])
     std::cin >> uDecNum;
     if (uDecNum < 0 or uDecNum > UINT32_MAX)
     {
-        std::cout << "Inorrect number format\r\n";
+        std::cout << "Incorrect number format\r\n";
         std::cin.ignore();
         std::cin.get();
         return 0;
